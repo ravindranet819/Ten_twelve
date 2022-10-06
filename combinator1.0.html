@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+         div p{
+            background-color: aqua;
+            color: red;
+
+
+        } 
+        div > p > span {
+            background-color: green;
+            color: whitesmoke;
+        }
+        div + p{
+            background-color: darkblue;
+            color: white;
+        }
+        div ~ p{
+            background-color: hotpink;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div>
+
+        <p>
+            
+             <span>i am heading inside div>p>h1</span>
+        </p>
+        <p>i am again inside div</p>
+        <div><p>inside section</p></div>
+
+    </div><br>
+
+    <div>
+        i am div
+    </div>
+
+    <p>i am p</p>
+    <p>i am another one</p>
+
+    <p>i am outside of div</p>
+</body>
+</html>
