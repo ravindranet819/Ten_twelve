@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+body{
+    background-color: rgb(55, 30, 30);
+    background: url("img2.jpg") url("img1.jpg");
+    background-attachment: fixed;
+}
+
+/* background-image property values 
+
+none
+url()
+linear-gradient
+conic-gradient
+radial-gradient
+initial
+inherit
+
+
+
+
+*/
+#div1{
+    width: 400px;
+    height: 400px;
+    background-image: url("img1.jpg");
+    background-size: cover;
+    color: rgb(249, 249, 249);
+    font-size: 35px;
+}
+#div2{
+    width: 400px;
+    height: 400px;
+    background-image: linear-gradient(blue,black);
+    background-size: cover;
+    color: red;
+    color: rgb(249, 249, 249);
+    font-size: 35px;
+
+}
+#div3{
+    width: 400px;
+    height: 400px;
+    background-image: conic-gradient(rgb(214, 45, 169),rgb(213, 207, 207),blue,rgb(23,78,89));
+    /* background-size: cover; */
+    color: red;
+    color: rgb(249, 249, 249);
+    font-size: 35px;
+
+}
+#div4{
+    width: 400px;
+    height: 400px;
+    background-image: radial-gradient(rgb(105, 5, 79),rgb(231, 3, 3),rgb(12, 12, 159),rgb(32, 201, 58));
+    /* background-size: cover; */
+    color: red;
+    color: rgb(249, 249, 249);
+    font-size: 35px;
+    border-radius: 50%;
+
+}
+#div5{
+    width: 400px;
+    height: 400px;
+   /* background-image: repeating-linear-gradient(10%red,20%blue); */
+    /* background-size: cover; */
+    background-image: inherit;
+    
+    color: rgb(249, 249, 249);
+    font-size: 35px;
+    /* border-radius: 50%; */
+    
+}
+#div6{
+    width: 400px;
+    height: 400px;
+   /* background-image: repeating-linear-gradient(10%red,20%blue); */
+    /* background-size: cover; */
+    background-image: repeating-linear-gradient(red 10%,blue 20%,green 10%);
+    
+    color: rgb(249, 249, 249);
+    font-size: 35px;
+
+}
+#div7{
+    width: 400px;
+    height: 400px;
+   /* background-image: repeating-linear-gradient(10%red,20%blue); */
+    /* background-size: cover; */
+    background-image: repeating-conic-gradient(red 10%,blue 20%,green 10%);
+    
+    color: rgb(249, 249, 249);
+    font-size: 35px;
+}
+#div8{
+    width: 400px;
+    height: 400px;
+   /* background-image: repeating-linear-gradient(10%red,20%blue); */
+    /* background-size: cover; */
+    background-image: repeating-radial-gradient(red 10%,blue 20%,green 10%);
+    
+    color: rgb(249, 249, 249);
+    font-size: 35px;
+}
+#div9{
+    width: 400px;
+    height: 400px;
+   /* background-image: repeating-linear-gradient(10%red,20%blue); */
+    /* background-size: cover; */
+   background-attachment: fixed;
+    
+    color: rgb(249, 249, 249);
+    font-size: 35px;
+
+}
+    </style>
+
+
+<body>
+
+    <div id="div1">background-image</div><br>
+
+    <div id="div2">linear-gradient</div><br>
+
+    <div id="div3">conic-gradient</div><br>
+
+    <div id="div4">radial-gradient</div><br>
+
+    <div id="div5">inherit</div><br>
+
+    <div id="div6">repeating-linear-gradient</div><br>
+
+
+    <div id="div7">repeating-conic-gradient</div><br>
+
+    <div id="div8">repeating-redial-gradient</div><br>
+
+    <div id="div9">background-attachment</div><br>
+
+
+
+</body>
+</html>
