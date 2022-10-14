@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body  id="color">
+
+    <div  id="display" >
+
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, error laudantium! Explicabo voluptate pariatur iure illo ipsum est quidem ipsam fuga quia voluptas reiciendis placeat, voluptatum laudantium, ea quod harum!
+    </div>
+    <button onclick="dis()">display/hide</button>
+    <button onclick="color1()">green/crimson</button>
+    <script>
+
+        function dis(){
+            var p=document.getElementById("display")
+            if(p.style.display==="block")
+            {
+                document.getElementById("display").style.display="none"
+
+            }
+            else{
+                document.getElementById("display").style.display="block"
+
+            }
+        }
+
+            function color1(){
+            var p=document.getElementById("color")
+
+            if(p.style.backgroundColor!=="yellow")
+            {
+                document.getElementById("color").style.backgroundColor="yellow";
+
+            }
+            else{
+                document.getElementById("color").style.backgroundColor="green";
+
+            }
+            // if(d=="block"){
+
+            //     d="none"
+            // }
+            // else{
+            //     d="block";
+
+            // }
+        }
+    //  logical operator
+// logical and(&&)
+    // var num=45;
+    // if((num%2==0)&&(num%5==0)){
+    //     document.write("divisible")
+
+    // }
+    // else{
+    //     document.write("not divisible");
+    // }
+
+
+
+    // logical or(||)
+    // var num1=45,num2=56,num,num3;
+    // if((num)||(num1)){
+    //     document.write("exit1");
+    // }
+
+    // if((num2)||(num1)){
+    //     document.write("exit2");
+    // }
+
+    // if((num)||(num3)){
+    //     document.write("exit3");
+    // }
+
+
+    // var num4;
+    // if(num4){
+    //     document.write("hello i am inside if")
+    // }
+
+
+
+
+
+
+    </script>
+
+
+</body>
+</html>
