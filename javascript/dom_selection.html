@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>hello i am para only</p>
+    <p>i am second para</p>
+    <div class="div1">i am div tag</div>
+    <div class="div1"></div>
+    <div id="div3">hello id </div>
+    <div class="cal">hello clark</div>
+
+    <script>
+        document.getElementsByTagName("p")[0].innerHTML="i am changed para";
+        document.getElementsByTagName("p")[1].innerHTML="i am changed para again";
+        document.getElementsByClassName("div1")[0].innerHTML="i am changed div";
+        document.getElementsByClassName("div1")[1].innerHTML="random things"
+        document.getElementById("div3").innerHTML="changed id ";
+        // document.querySelectorAll("div").innerHTML="bye clark";
+
+    </script>
+
+</body>
+</html>

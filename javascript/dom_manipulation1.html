@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body id="bob">
+    <div id="dav">i am div tag here</div>
+    <img src="img2.jpg" style="width:400px;height:400px;background-size:cover;" id="ime"><br>
+    <a href="flexbox.html" id="ac">click here</a>
+    <button onclick="cal()">click</button>
+    <script>
+        function cal() {
+            document.getElementById("ac").href="form1.html"
+            document.getElementById("ime").src="img3.jpg"
+            document.getElementById("dav").innerHTML = "button has been clicked";
+            document.getElementById("dav").style.cssText="background-color:hotpink;color:black;width:50%;height:100px;padding:20px;font-size:30px;"
+            var a = document.getElementById("bob");
+            if (a.style.backgroundColor !== "crimson") {
+                a.style.backgroundColor = "crimson";
+            }
+            else{
+                a.style.backgroundColor = "blue";
+
+            }
+        }
+    </script>
+</body>
+
+</html>

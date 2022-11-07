@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <script>
+        var a=ape;
+     function ape(){
+        console.log("hello i am good now");
+        console.log("hello i am good now");
+        console.log("hello i am good now");
+     }
+     
+     a()
+    </script> -->
+    <!-- <script>
+        function a()
+        {
+            console.log("i am a");
+            function b()
+            {
+                console.log("i am b");
+                function c()
+                {
+                    console.log("i am c");
+
+                }
+                return c;
+            }
+            return b;
+        }
+        a()()()
+    </script> -->
+
+    <script>
+        function a(a)
+        {
+            function b(b)
+            {
+                function c(c)
+                {
+                    function d(d)
+                    {
+                        console.log("addition inside c",a+b+c+d);
+                    }
+                    return d;
+                }
+                return c;
+            }
+            return b;
+        }
+
+        a(23)(2)(6)(8)
+    </script>
+</body>
+</html>

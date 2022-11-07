@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var arr=[12,45,32,78,545,90];
+        var arr1=arr.filter((r)=>{
+            return r>50;
+
+        })
+        console.log(arr1);
+
+         var arr3=[
+            {fname:"varad",friend:"adolph",age:19},
+            {fname:"adolph",friend:"atharva",age:20},
+            {fname:"atharva",friend:"adolph",age:21},
+            {fname:"sunil",friend:"palli",age:21},
+            {fname:"arun",friend:"bhupendra",age:22},
+            {fname:"ramesh",friend:"suresh",age:15},
+            {fname:"raghvendra",friend:"mohini",age:13}
+         ]
+         var arr2=arr3.filter((i)=>{
+            return i.age>15;
+         })
+         console.log(arr2)
+
+    </script>
+</body>
+</html>
